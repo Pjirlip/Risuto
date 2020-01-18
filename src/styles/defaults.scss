@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $highligth;
+    font-family: 'Lobster', cursive;
+  }
+  
+  a, a:visited, a:link, span {
+    color: $highligth;
+    text-decoration: none;
+    transition: color 0.3s linear;
+
+    &:hover {
+        color: lighten($color: $highligth, $amount: 20);
+    }
+}
