@@ -4,6 +4,10 @@
 @import "animations";
 
 
+.outerContainer {
+    padding: 10px 50px;
+}
+
 .sp-l {
     margin-left: 20px;   
 }
@@ -19,3 +23,7 @@
 .lsp-r {
     margin-right: 50px;
 }
+
+.disableAnimation {
+    animation: none !important;
+  }

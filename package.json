@@ -1,5 +1,11 @@
 {
   "name": "risuto",
+  "author": {
+    "name": "Philipp Dippel",
+    "email": "philipp@dippel.rocks"
+  },
+  "repository": "github:Pjirlip/Risuto",
+  "bugs": "https://github.com/Pjirlip/Risuto/issues",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +14,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "graphql-request": "^1.8.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },

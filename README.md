@@ -1,5 +1,9 @@
 # risuto
 
+Bachelor Fachseminar: Web-Architekturen
+Philipp Dippel
+WS 19/20
+
 ## Project setup
 ```
 npm install
@@ -14,6 +18,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

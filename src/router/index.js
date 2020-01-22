@@ -1,25 +1,28 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import AnimeList from "../views/AnimeList";
+import mangaList from "../views/MangaList";
+import personalList from "../views/PersonalList";
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: Home
+    name: 'animeList',
+    component: AnimeList,
+    alias: ["/anime", "*"]
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/About.vue')
-    }
-  }
+    path: '/manga',
+    name: 'mangaList',
+    component: mangaList
+  },
+  {
+    path: '/personallist',
+    name: 'personalList',
+    component: personalList
+  },
 ]
 
 const router = new VueRouter({
